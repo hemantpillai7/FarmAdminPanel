@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:checked="true"
+            android:icon="@drawable/home">
+        </item>
+
+
+        <item
+            android:id="@+id/nav_adver"
+            android:title="Manage Advertisment"
+            android:icon="@drawable/advertisment">
+
+        </item>
+        <item
+            android:id="@+id/nav_manprofile"
+            android:title="Manage Profile"
+            android:icon="@drawable/profile">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_video"
+            android:title="Videos"
+            android:icon="@drawable/video">
+
+        </item>
+
+        <item
+            android:title="Service">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_garden"
+                        android:title="Garden Data"
+                        android:icon="@drawable/sergarden">
+
+                    </item>
+                    <item
+                        android:id="@+id/nav_honey"
+                        android:title="Honey Data"
+                        android:icon="@drawable/honey">
+
+                    </item>
+                    <item
+                        android:id="@+id/nav_scheme"
+                        android:title="New Scheme"
+                        android:icon="@drawable/sergovscheme"/>
+
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="logout"
+            android:icon="@drawable/logout">
+
+        </item>
+
+    </group>
+
+</menu>
